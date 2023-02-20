@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product01 {
+ margin-top: 150px;
+ color: black;
+ font-size: 26px;
+ font-weight: bold;
+ margin-left: 50px;
+}
+.card{
+    width:100%;
+    height: auto;
+    margin: 28px 0px 10px 25px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 32%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-break: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.cloth{
+    display: flex;
+}
+.acc{
+    display: flex;
+}
+.card:hover{
+    box-shadow: 0 2px 10px black;
+}
+.product02 {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(27, 25, 25);
+    margin-top: 10px;
+    margin-left:7px;
+}
+
+.product03 {
+    text-align: left;
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgb(110, 110, 110);
+    font-weight: bold;
+    margin-left:7px;
+}
+
+.product04 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    color: #009688;
+    font-weight: bold;
+    margin-left:7px;
+}
+@media screen and (max-width:770px) {
+    .product01{
+        margin-top:100;
+        color:rgb(44, 42, 42);
+        font-size: 25px;
+        font-weight: 800;
+        margin-left: 5px;
+    }
+    .cloth{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .acc{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .card{
+        width: 40%;
+        height: auto;
+        cursor: pointer;
+        background-color: white;
+        box-shadow: 0 1px 10px rgb(87, 85, 85);
+    }
+    .card:hover{
+    box-shadow: 0 1px 10px black;
+}  
+}
+    
